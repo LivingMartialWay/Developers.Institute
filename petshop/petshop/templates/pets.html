@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block title %}Our Pets{% endblock %}
+{% block content %}
+<h1>Our Pets</h1>
+<div class="row pb-5">
+    <div class="col-4">
+      <div class="card mt-3">
+        <div style="overflow: hidden; height: 15rem;">
+          <img src="URL_FOR_PET_IMAGE" class="card-img-top">
+        </div>
+
+        <div class="card-body pet-card">
+          <h5 class="card-title pet-name">Pet Name</h5>
+          <h5 class="card-title pet-price">$00000</h5>
+          <a href="URL_TO_VIEW_PET" class="btn btn-primary">View</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+{% endblock %}

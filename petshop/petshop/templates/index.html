@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Your Cart{% endblock %}
+{% block content %}
+<h1>Welcome to Our Pet Shop!</h1>
+<div class="row pb-5">
+    <div class="col-4">
+      <div class="card mt-3">
+        <div style="overflow: hidden; height: 15rem;">
+          <img src="URL_FOR_PETS_IMAGE" class="card-img-top">
+        </div>
+        <div class="card-body pet-card">
+          <h5 class="card-title pet-name">Our Pets</h5>
+          <a href="URL_FOR_SHOW_PETS_PAGE" class="btn btn-primary">View</a>
+        </div>
+      </div>
+    </div>    <div class="col-4">
+      <div class="card mt-3">
+        <div style="overflow: hidden; height: 15rem;">
+          <img src="URL_FOR_CART_IMAGE" class="card-img-top">
+        </div>
+
+        <div class="card-body pet-card">
+          <h5 class="card-title pet-name">Your Cart</h5>
+          <a href="URL_FOR_SHOW_CART_PAGE" class="btn btn-primary">View</a>
+        </div>
+      </div>
+    </div>
+</div>
+
+{% endblock %}
